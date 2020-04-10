@@ -1,0 +1,329 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Config>
+  <Arduino Modelo="0" />
+  <Enable433Out enable="False" />
+  <Num433TxPin Value="" />
+  <EnableIn433 enable="False" />
+  <ChkIrLed enabled="False" />
+  <NumPinRecive Value="" />
+  <ChkIrRecive enabled="False" />
+  <TxtCode Text="" />
+  <digitalInput Index="0" TipoEntrada="1" Name="Input Nº 0 -Pin 23" Pin="23" Disponible="False" Enabled="True" />
+  <digitalInput Index="1" TipoEntrada="1" Name="Input Nº 1 -Pin 25" Pin="25" Disponible="False" Enabled="True" />
+  <digitalInput Index="2" TipoEntrada="1" Name="Input Nº 2 -Pin 27" Pin="27" Disponible="False" Enabled="True" />
+  <digitalInput Index="3" TipoEntrada="0" Name="Input Nº 3 -Pin 29" Pin="29" Disponible="True" Enabled="True" />
+  <digitalInput Index="4" TipoEntrada="0" Name="Input Nº 4 -Pin 31" Pin="31" Disponible="True" Enabled="True" />
+  <digitalInput Index="5" TipoEntrada="0" Name="Input Nº 5 -Pin 33" Pin="33" Disponible="True" Enabled="True" />
+  <digitalInput Index="6" TipoEntrada="0" Name="Input Nº 6 -Pin 35" Pin="35" Disponible="True" Enabled="True" />
+  <digitalInput Index="7" TipoEntrada="0" Name="Input Nº 7 -Pin 37" Pin="37" Disponible="True" Enabled="True" />
+  <digitalInput Index="8" TipoEntrada="0" Name="Input Nº 8 -Pin 39" Pin="39" Disponible="True" Enabled="True" />
+  <digitalInput Index="9" TipoEntrada="0" Name="Input Nº 9 -Pin 41" Pin="41" Disponible="True" Enabled="True" />
+  <digitalOut Index="0" Pin="22" Name="Out Nº 0 -Pin 22" Disponible="False" Enabled="True" />
+  <digitalOut Index="1" Pin="24" Name="Out Nº 1 -Pin 24" Disponible="True" Enabled="True" />
+  <digitalOut Index="2" Pin="26" Name="Out Nº 2 -Pin 26" Disponible="False" Enabled="True" />
+  <digitalOut Index="3" Pin="28" Name="Out Nº 3 -Pin 28" Disponible="False" Enabled="True" />
+  <digitalOut Index="4" Pin="30" Name="Out Nº 4 -Pin 30" Disponible="True" Enabled="True" />
+  <digitalOut Index="5" Pin="32" Name="Out Nº 5 -Pin 32" Disponible="True" Enabled="True" />
+  <digitalOut Index="6" Pin="34" Name="Out Nº 6 -Pin 34" Disponible="True" Enabled="True" />
+  <digitalOut Index="7" Pin="36" Name="Out Nº 7 -Pin 36" Disponible="True" Enabled="True" />
+  <digitalOut Index="8" Pin="38" Name="Out Nº 8 -Pin 38" Disponible="True" Enabled="True" />
+  <digitalOut Index="9" Pin="40" Name="Out Nº 9 -Pin 40" Disponible="True" Enabled="True" />
+  <NrfSpeed Value="-1" />
+  <ChkSlave2NRF enabled="False" />
+  <ChkSlave3NRF enabled="False" />
+  <ChkSlave4NRF enabled="False" />
+  <EnableNRF enabled="False" />
+  <NRFpull enabled="True" />
+  <NrfPerroGuardian enabled="False" />
+  <TxtAddr v0="03" v1="04" v2="05" />
+  <CmbOutsMasterNRF v0="-1" v1="-1" v2="-1" v3="-1" v4="-1" v5="-1" />
+  <CmbMasterInputNRF v0="0" v1="0" v2="0" v3="0" v4="0" v5="0" />
+  <TxtMasterInputNRF v0="Nrf24 Master, Input 0" v1="Nrf24 Master, Input 1" v2="Nrf24 Master, Input 2" v3="Nrf24 Master, Input 3" v4="Nrf24 Master, Input 4" v5="Nrf24 Master, Input 5" />
+  <CmbChannel Value="90" />
+  <NumRegistros Value="0" />
+  <CmdPinCE Value="" />
+  <CmdPinCS Value="" />
+  <CmbMasterPinDs Value="-1" />
+  <CmbMasterPinDTH22 Value="-1" />
+  <CmbMasterPin433In Value="-1" />
+  <ChkMasterLCD Value="False" />
+  <ChkMasterRGB Value="False" />
+  <ChkMasterIrLED Value="False" />
+  <ChkMasterIr Value="False" />
+  <ChkMasterDS Value="False" />
+  <ChkMasterDHT Value="False" />
+  <ChkMaster433OUT Value="False" />
+  <ChkMaster433IN Value="False" />
+  <CmbReleMaster Value="0" />
+  <CmbPinOutsMaster v0="-1" v1="-1" v2="-1" v3="-1" v4="-1" v5="-1" />
+  <CmbMasterPinI v0="-1" v1="-1" v2="-1" v3="-1" v4="-1" v5="-1" />
+  <CmbSlvPinDs Index="0" Value="-1" />
+  <CmbSlvPinDTH22 Index="0" Value="-1" />
+  <CmbSlvPin433In Index="0" Value="-1" />
+  <ChkLCD Index="0" Value="False" />
+  <ChkRGB Index="0" Value="False" />
+  <ChkIrLED Index="0" Value="False" />
+  <ChkIr Index="0" Value="False" />
+  <ChkDS Index="0" Value="False" />
+  <ChkDHT Index="0" Value="False" />
+  <Chk433IN Index="0" Value="False" />
+  <Chk433OUT Index="0" Value="False" />
+  <CmbRelaySlave Index="0" Value="0" />
+  <CmbOutsSlaveNRF Index="0" v0="-1" v1="-1" v2="-1" v3="-1" v4="-1" v5="-1" />
+  <CmbSlaveInputNRF Index="0" v0="0" v1="0" v2="0" v3="0" v4="0" v5="0" />
+  <TxtSlaveInputNRF Index="0" v0="Nrf Slave 2, Input 0" v1="Nrf Slave 2, Input 1" v2="Nrf Slave 2, Input 2" v3="Nrf Slave 2, Input 3" v4="Nrf Slave 2, Input 4" v5="Nrf Slave 2, Input 5" />
+  <CmbPinOutsSlave Index="0" v0="-1" v1="-1" v2="-1" v3="-1" v4="-1" v5="-1" />
+  <CmbSlavePinI Index="0" v0="-1" v1="-1" v2="-1" v3="-1" v4="-1" v5="-1" />
+  <CmbSlvPinDs Index="1" Value="-1" />
+  <CmbSlvPinDTH22 Index="1" Value="-1" />
+  <CmbSlvPin433In Index="1" Value="-1" />
+  <ChkLCD Index="1" Value="False" />
+  <ChkRGB Index="1" Value="False" />
+  <ChkIrLED Index="1" Value="False" />
+  <ChkIr Index="1" Value="False" />
+  <ChkDS Index="1" Value="False" />
+  <ChkDHT Index="1" Value="False" />
+  <Chk433IN Index="1" Value="False" />
+  <Chk433OUT Index="1" Value="False" />
+  <CmbRelaySlave Index="1" Value="0" />
+  <CmbOutsSlaveNRF Index="1" v0="-1" v1="-1" v2="-1" v3="-1" v4="-1" v5="-1" />
+  <CmbSlaveInputNRF Index="1" v0="0" v1="0" v2="0" v3="0" v4="0" v5="0" />
+  <TxtSlaveInputNRF Index="1" v0="Nrf Slave 3, Input 0" v1="Nrf Slave 3, Input 1" v2="Nrf Slave 3, Input 2" v3="Nrf Slave 3, Input 3" v4="Nrf Slave 3, Input 4" v5="Nrf Slave 3, Input 5" />
+  <CmbPinOutsSlave Index="1" v0="-1" v1="-1" v2="-1" v3="-1" v4="-1" v5="-1" />
+  <CmbSlavePinI Index="1" v0="-1" v1="-1" v2="-1" v3="-1" v4="-1" v5="-1" />
+  <CmbSlvPinDs Index="2" Value="-1" />
+  <CmbSlvPinDTH22 Index="2" Value="-1" />
+  <CmbSlvPin433In Index="2" Value="-1" />
+  <ChkLCD Index="2" Value="False" />
+  <ChkRGB Index="2" Value="False" />
+  <ChkIrLED Index="2" Value="False" />
+  <ChkIr Index="2" Value="False" />
+  <ChkDS Index="2" Value="False" />
+  <ChkDHT Index="2" Value="False" />
+  <Chk433IN Index="2" Value="False" />
+  <Chk433OUT Index="2" Value="False" />
+  <CmbRelaySlave Index="2" Value="0" />
+  <CmbOutsSlaveNRF Index="2" v0="-1" v1="-1" v2="-1" v3="-1" v4="-1" v5="-1" />
+  <CmbSlaveInputNRF Index="2" v0="0" v1="0" v2="0" v3="0" v4="0" v5="0" />
+  <TxtSlaveInputNRF Index="2" v0="Nrf Slave 4, Input 0" v1="Nrf Slave 4, Input 1" v2="Nrf Slave 4, Input 2" v3="Nrf Slave 4, Input 3" v4="Nrf Slave 4, Input 4" v5="Nrf Slave 4, Input 5" />
+  <CmbPinOutsSlave Index="2" v0="-1" v1="-1" v2="-1" v3="-1" v4="-1" v5="-1" />
+  <CmbSlavePinI Index="2" v0="-1" v1="-1" v2="-1" v3="-1" v4="-1" v5="-1" />
+  <ChkSlave2 enabled="False" />
+  <ChkSlave3 enabled="False" />
+  <ChkSlave4 enabled="False" />
+  <EnableModBus enabled="False" />
+  <NumPinTx Value="" />
+  <mbuspull enabled="True" />
+  <ModbusPerroGuardian enabled="False" />
+  <ModbusBaud Value="19200" />
+  <Pooling Value="50" />
+  <Reintentos Value="10" />
+  <CmbOutsMaster v0="-1" v1="-1" v2="-1" v3="-1" v4="-1" v5="-1" />
+  <CmbMasterInput v0="0" v1="0" v2="0" v3="0" v4="0" v5="0" />
+  <TxtMasterInput v0="Modbus Master, Input 0" v1="Modbus Master, Input 1" v2="Modbus Master, Input 2" v3="Modbus Master, Input 3" v4="Modbus Master, Input 4" v5="Modbus Master, Input 5" />
+  <CmbOutsSlave Index="0" v0="-1" v1="-1" v2="-1" v3="-1" v4="-1" v5="-1" />
+  <CmbSlaveInput Index="0" v0="0" v1="0" v2="0" v3="0" v4="0" v5="0" />
+  <TxtSlaveInput Index="0" v0="Modbus Slave 2, Input 0" v1="Modbus Slave 2, Input 1" v2="Modbus Slave 2, Input 2" v3="Modbus Slave 2, Input 3" v4="Modbus Slave 2, Input 4" v5="Modbus Slave 2, Input 5" />
+  <CmbOutsSlave Index="1" v0="-1" v1="-1" v2="-1" v3="-1" v4="-1" v5="-1" />
+  <CmbSlaveInput Index="1" v0="0" v1="0" v2="0" v3="0" v4="0" v5="0" />
+  <TxtSlaveInput Index="1" v0="Modbus Slave 3, Input 0" v1="Modbus Slave 3, Input 1" v2="Modbus Slave 3, Input 2" v3="Modbus Slave 3, Input 3" v4="Modbus Slave 3, Input 4" v5="Modbus Slave 3, Input 5" />
+  <CmbOutsSlave Index="2" v0="-1" v1="-1" v2="-1" v3="-1" v4="-1" v5="-1" />
+  <CmbSlaveInput Index="2" v0="0" v1="0" v2="0" v3="0" v4="0" v5="0" />
+  <TxtSlaveInput Index="2" v0="Modbus Slave 4, Input 0" v1="Modbus Slave 4, Input 1" v2="Modbus Slave 4, Input 2" v3="Modbus Slave 4, Input 3" v4="Modbus Slave 4, Input 4" v5="Modbus Slave 4, Input 5" />
+  <ChkExcServer Value="False" />
+  <TxtServerIP1 Value="192" />
+  <TxtServerIP2 Value="168" />
+  <TxtServerIP3 Value="1" />
+  <TxtServerIP4 Value="200" />
+  <TxtServerPort Value="192" />
+  <dog enable="True" />
+  <ChkDhcp enable="False" />
+  <DST enable="False" />
+  <DHT_PIN Value="" />
+  <Ds_18b20 Value="" />
+  <pullup enable="True" />
+  <debug enable="True" />
+  <EXC_InputOn index="1" />
+  <rele index="1" />
+  <sd enable="False" />
+  <timHistorico index="0" />
+  <clock index="0" />
+  <wifi enabled="False" />
+  <ip b1="192" b2="168" b3="1" b4="200" />
+  <mac b1="90" b2="A2" b3="DA" b4="0F" b5="26" b6="20" />
+  <port Value="5000" />
+  <mail Value="" />
+  <pass key="" />
+  <ConexionSegura enabled="False" />
+  <WifiType index="1" />
+  <SSID Value="" />
+  <Pass Value="" />
+  <circuito TipoCircuito="7" Nombre="Circuit 0" Salida1="3" Salida2="0" Entrada1="1" Entrada2="2" DeviceNumber="0" RedPin="-1" GreenPin="-1" BluePin="-1" InvertirSalida="False" />
+  <circuito TipoCircuito="19" Nombre="Circuit 1" Salida1="2" Salida2="-1" Entrada1="0" Entrada2="-1" DeviceNumber="-1" RedPin="-1" GreenPin="-1" BluePin="-1" InvertirSalida="False" />
+  <Sensor Tipo="4" Nombre="Sensor" Model="Generic" DeviceNuber="240" SensorAdress="0x28, 0x30, 0xD6, 0xBD, 0x04, 0x00, 0x00, 0xA3" />
+  <RfInOn numero="0" Value="6000" />
+  <RfInOn numero="1" Value="6001" />
+  <RfInOn numero="2" Value="6002" />
+  <RfInOn numero="3" Value="6003" />
+  <RfInOn numero="4" Value="6004" />
+  <RfInOn numero="5" Value="6005" />
+  <RfInOn numero="6" Value="6006" />
+  <RfInOn numero="7" Value="6007" />
+  <RfInOn numero="8" Value="6008" />
+  <RfInOn numero="9" Value="6009" />
+  <RfInOn numero="10" Value="6010" />
+  <RfInOn numero="11" Value="6011" />
+  <RfInOn numero="12" Value="6012" />
+  <RfInOn numero="13" Value="6013" />
+  <RfInOn numero="14" Value="6014" />
+  <RfInOff numero="0" Value="6100" />
+  <RfInOff numero="1" Value="6101" />
+  <RfInOff numero="2" Value="6102" />
+  <RfInOff numero="3" Value="6103" />
+  <RfInOff numero="4" Value="6104" />
+  <RfInOff numero="5" Value="6105" />
+  <RfInOff numero="6" Value="6106" />
+  <RfInOff numero="7" Value="6107" />
+  <RfInOff numero="8" Value="6108" />
+  <RfInOff numero="9" Value="6109" />
+  <RfInOff numero="10" Value="6110" />
+  <RfInOff numero="11" Value="6111" />
+  <RfInOff numero="12" Value="6112" />
+  <RfInOff numero="13" Value="6113" />
+  <RfInOff numero="14" Value="6114" />
+  <RfOutOn numero="0" Value="mySwitch.send(5000, 24);" />
+  <RfOutOn numero="1" Value="mySwitch.send(5001, 24);" />
+  <RfOutOn numero="2" Value="mySwitch.send(5002, 24);" />
+  <RfOutOn numero="3" Value="mySwitch.send(5003, 24);" />
+  <RfOutOn numero="4" Value="mySwitch.send(5004, 24);" />
+  <RfOutOn numero="5" Value="mySwitch.send(5005, 24);" />
+  <RfOutOn numero="6" Value="mySwitch.send(5006, 24);" />
+  <RfOutOn numero="7" Value="mySwitch.send(5007, 24);" />
+  <RfOutOn numero="8" Value="mySwitch.send(5008, 24);" />
+  <RfOutOn numero="9" Value="mySwitch.send(5009, 24);" />
+  <RfOutOn numero="10" Value="mySwitch.send(5010, 24);" />
+  <RfOutOn numero="11" Value="mySwitch.send(5011, 24);" />
+  <RfOutOn numero="12" Value="mySwitch.send(5012, 24);" />
+  <RfOutOn numero="13" Value="mySwitch.send(5013, 24);" />
+  <RfOutOn numero="14" Value="mySwitch.send(5014, 24);" />
+  <RfOutOff numero="0" Value="mySwitch.send(5100, 24);" />
+  <RfOutOff numero="1" Value="mySwitch.send(5101, 24);" />
+  <RfOutOff numero="2" Value="mySwitch.send(5102, 24);" />
+  <RfOutOff numero="3" Value="mySwitch.send(5103, 24);" />
+  <RfOutOff numero="4" Value="mySwitch.send(5104, 24);" />
+  <RfOutOff numero="5" Value="mySwitch.send(5105, 24);" />
+  <RfOutOff numero="6" Value="mySwitch.send(5106, 24);" />
+  <RfOutOff numero="7" Value="mySwitch.send(5107, 24);" />
+  <RfOutOff numero="8" Value="mySwitch.send(5108, 24);" />
+  <RfOutOff numero="9" Value="mySwitch.send(5109, 24);" />
+  <RfOutOff numero="10" Value="mySwitch.send(5110, 24);" />
+  <RfOutOff numero="11" Value="mySwitch.send(5111, 24);" />
+  <RfOutOff numero="12" Value="mySwitch.send(5112, 24);" />
+  <RfOutOff numero="13" Value="mySwitch.send(5113, 24);" />
+  <RfOutOff numero="14" Value="mySwitch.send(5114, 24);" />
+  <Scenas Value="Escena1" />
+  <Scenas Value="New device" />
+  <Condicionados Value="condicio1" />
+  <Condicionados Value="condicio2" />
+  <Consignas Value="Consigna1" />
+  <ProtocoloRfRepeticiones Value="15" />
+  <ProtocoloRf Value="1" />
+  <ProtocoloRfPulseLenght Value="320" />
+  <UserCode Key="USER CODE LIBRARY START" Value="" />
+  <UserCode Key="GLOBAL VARIABLES ZONE" Value="" />
+  <UserCode Key="void UserSetup() { //EQUIVALENT ARDUINO SETUP  FUNCTION" Value="" />
+  <UserCode Key="void UserLoop(){ //EQUIVALENT ARDUINO LOOP FUNCTION" Value="" />
+  <UserCode Key="void LoopNew100MillisSg(){//This event occurs every 100Millis Sg." Value="" />
+  <UserCode Key="void LoopNewSecond(){//This event occurs every second" Value="" />
+  <UserCode Key="void Loop30Sg(){//This event occurs every 30 second" Value="" />
+  <UserCode Key="void NewMinute(){//This event occurs every minute." Value="" />
+  <UserCode Key="void SwicthStateChange(int NumberInput, int value){" Value="" />
+  <UserCode Key="void ShortInput(int NumberInput){" Value="" />
+  <UserCode Key="void LongInputEnd(int NumberInput){" Value="" />
+  <UserCode Key="void LongInput(int NumberInput){" Value="" />
+  <UserCode Key="void OutControl(){" Value="" />
+  <UserCode Key="String RunCommand(byte CommandNumber){" Value="" />
+  <UserCode Key="void CommonOrders(byte CommandNumber){" Value="" />
+  <UserCode Key="String FreeText(byte Number){" Value="" />
+  <UserCode Key="void  Scene_Selected(byte Number){" Value="" />
+  <UserCode Key="void NRF24_CommOk(boolean Send){//Nrf24l01 complete communication" Value="" />
+  <UserCode Key="void Mhz433In(int value){//433Mhz reception" Value="" />
+  <UserCode Key="void InternalPacketIn(byte Data1,byte Data2,byte Data3,byte Data4,byte Data5,byte Data6,byte Data7,byte Data8,byte Data9,byte Data10){" Value="" />
+  <UserCode Key="void AutomaticDST(){" Value="//DST time change (default for Europe)&#xD;&#xA;  if(month==3 &amp;&amp; dayOfMonth &gt;= 25 &amp;&amp; dayOfWeek == 7 &amp;&amp; hour==2){&#xD;&#xA;    hour = 3;&#xD;&#xA;    setDateCLOCK(second, minute, hour, dayOfWeek, dayOfMonth, month, year);&#xD;&#xA;  }&#xD;&#xA;  if(month==10 &amp;&amp; dayOfMonth &gt;= 25 &amp;&amp; dayOfWeek == 7 &amp;&amp; hour==3){&#xD;&#xA;    if (HoraRetrasa==false){&#xD;&#xA;      HoraRetrasa=true;&#xD;&#xA;      hour = 2; &#xD;&#xA;      setDateCLOCK(second, minute, hour, dayOfWeek, dayOfMonth, month, year);&#xD;&#xA;    }&#xD;&#xA;  }&#xD;&#xA;" />
+  <UserCode Key="//USER FUNCTIONS. CREATE YOUR FUNCTION HERE" Value="" />
+  <NrfUserCode Slave="0" Key="//USER CODE LIBRARY START" Value="" />
+  <NrfUserCode Slave="0" Key="//GLOBAL VARIABLES ZONE" Value="" />
+  <NrfUserCode Slave="0" Key="void UserSetup() { //EQUIVALENT ARDUINO SETUP  FUNCTION" Value="" />
+  <NrfUserCode Slave="0" Key="void UserLoop(){ //EQUIVALENT ARDUINO LOOP FUNCTION" Value="" />
+  <NrfUserCode Slave="0" Key="void LoopNew100MillisSg(){//This event occurs every 100Millis Sg." Value="" />
+  <NrfUserCode Slave="0" Key="void LoopNewSecond(){//This event occurs every second" Value="" />
+  <NrfUserCode Slave="0" Key="void Loop30Sg(){//This event occurs every 30 second" Value="" />
+  <NrfUserCode Slave="0" Key="void SwicthStateChange(int NumberInput,unsigned int value){" Value="" />
+  <NrfUserCode Slave="0" Key="void ShortInput(byte NumberInput){" Value="" />
+  <NrfUserCode Slave="0" Key="void LongInputEnd(byte NumberInput){" Value="" />
+  <NrfUserCode Slave="0" Key="void LongInput(byte NumberInput){" Value="" />
+  <NrfUserCode Slave="0" Key="void OutControl(){" Value="" />
+  <NrfUserCode Slave="0" Key="void Mhz433In(int value){//433Mhz reception" Value="" />
+  <NrfUserCode Slave="0" Key="void IrRecive(int codeType,int Value){" Value="" />
+  <NrfUserCode Slave="0" Key="//USER FUNCTIONS. CREATE YOUR FUNCTION HERE" Value="" />
+  <NrfUserCode Slave="1" Key="//USER CODE LIBRARY START" Value="" />
+  <NrfUserCode Slave="1" Key="//GLOBAL VARIABLES ZONE" Value="" />
+  <NrfUserCode Slave="1" Key="void UserSetup() { //EQUIVALENT ARDUINO SETUP  FUNCTION" Value="" />
+  <NrfUserCode Slave="1" Key="void UserLoop(){ //EQUIVALENT ARDUINO LOOP FUNCTION" Value="" />
+  <NrfUserCode Slave="1" Key="void LoopNew100MillisSg(){//This event occurs every 100Millis Sg." Value="" />
+  <NrfUserCode Slave="1" Key="void LoopNewSecond(){//This event occurs every second" Value="" />
+  <NrfUserCode Slave="1" Key="void Loop30Sg(){//This event occurs every 30 second" Value="" />
+  <NrfUserCode Slave="1" Key="void SwicthStateChange(int NumberInput,unsigned int value){" Value="" />
+  <NrfUserCode Slave="1" Key="void ShortInput(byte NumberInput){" Value="" />
+  <NrfUserCode Slave="1" Key="void LongInputEnd(byte NumberInput){" Value="" />
+  <NrfUserCode Slave="1" Key="void LongInput(byte NumberInput){" Value="" />
+  <NrfUserCode Slave="1" Key="void OutControl(){" Value="" />
+  <NrfUserCode Slave="1" Key="void Mhz433In(int value){//433Mhz reception" Value="" />
+  <NrfUserCode Slave="1" Key="void IrRecive(int codeType,int Value){" Value="" />
+  <NrfUserCode Slave="1" Key="//USER FUNCTIONS. CREATE YOUR FUNCTION HERE" Value="" />
+  <NrfUserCode Slave="2" Key="//USER CODE LIBRARY START" Value="" />
+  <NrfUserCode Slave="2" Key="//GLOBAL VARIABLES ZONE" Value="" />
+  <NrfUserCode Slave="2" Key="void UserSetup() { //EQUIVALENT ARDUINO SETUP  FUNCTION" Value="" />
+  <NrfUserCode Slave="2" Key="void UserLoop(){ //EQUIVALENT ARDUINO LOOP FUNCTION" Value="" />
+  <NrfUserCode Slave="2" Key="void LoopNew100MillisSg(){//This event occurs every 100Millis Sg." Value="" />
+  <NrfUserCode Slave="2" Key="void LoopNewSecond(){//This event occurs every second" Value="" />
+  <NrfUserCode Slave="2" Key="void Loop30Sg(){//This event occurs every 30 second" Value="" />
+  <NrfUserCode Slave="2" Key="void SwicthStateChange(int NumberInput,unsigned int value){" Value="" />
+  <NrfUserCode Slave="2" Key="void ShortInput(byte NumberInput){" Value="" />
+  <NrfUserCode Slave="2" Key="void LongInputEnd(byte NumberInput){" Value="" />
+  <NrfUserCode Slave="2" Key="void LongInput(byte NumberInput){" Value="" />
+  <NrfUserCode Slave="2" Key="void OutControl(){" Value="" />
+  <NrfUserCode Slave="2" Key="void Mhz433In(int value){//433Mhz reception" Value="" />
+  <NrfUserCode Slave="2" Key="void IrRecive(int codeType,int Value){" Value="" />
+  <NrfUserCode Slave="2" Key="//USER FUNCTIONS. CREATE YOUR FUNCTION HERE" Value="" />
+  <NrfUserCode Slave="3" Key="//USER CODE LIBRARY START" Value="" />
+  <NrfUserCode Slave="3" Key="//GLOBAL VARIABLES ZONE" Value="" />
+  <NrfUserCode Slave="3" Key="void UserSetup() { //EQUIVALENT ARDUINO SETUP  FUNCTION" Value="" />
+  <NrfUserCode Slave="3" Key="void UserLoop(){ //EQUIVALENT ARDUINO LOOP FUNCTION" Value="" />
+  <NrfUserCode Slave="3" Key="void LoopNew100MillisSg(){//This event occurs every 100Millis Sg." Value="" />
+  <NrfUserCode Slave="3" Key="void LoopNewSecond(){//This event occurs every second" Value="" />
+  <NrfUserCode Slave="3" Key="void Loop30Sg(){//This event occurs every 30 second" Value="" />
+  <NrfUserCode Slave="3" Key="void SwicthStateChange(int NumberInput,unsigned int value){" Value="" />
+  <NrfUserCode Slave="3" Key="void ShortInput(byte NumberInput){" Value="" />
+  <NrfUserCode Slave="3" Key="void LongInputEnd(byte NumberInput){" Value="" />
+  <NrfUserCode Slave="3" Key="void LongInput(byte NumberInput){" Value="" />
+  <NrfUserCode Slave="3" Key="void OutControl(){" Value="" />
+  <NrfUserCode Slave="3" Key="void Mhz433In(int value){//433Mhz reception" Value="" />
+  <NrfUserCode Slave="3" Key="void IrRecive(int codeType,int Value){" Value="" />
+  <NrfUserCode Slave="3" Key="//USER FUNCTIONS. CREATE YOUR FUNCTION HERE" Value="" />
+  <PersonalFuncton Key="User Functions 1" Value="" />
+  <PersonalFuncton Key="User Functions 2" Value="" />
+  <PersonalFuncton Key="User Functions 3" Value="" />
+  <PersonalFuncton Key="User Functions 4" Value="" />
+  <PersonalFuncton Key="User Functions 5" Value="" />
+  <PersonalFuncton Key="User Functions 6" Value="" />
+  <PersonalFuncton Key="User Functions 7" Value="" />
+  <PersonalFuncton Key="User Functions 8" Value="" />
+  <PersonalFuncton Key="User Functions 9" Value="" />
+  <PersonalFuncton Key="User Functions 10" Value="" />
+  <LCD_ENABLED enabled="False" />
+  <LineLCD Index="0" Index1="0" Index2="-1" />
+  <LineLCD Index="1" Index1="0" Index2="-1" />
+  <LineLCD Index="2" Index1="0" Index2="-1" />
+  <LineLCD Index="3" Index1="0" Index2="-1" />
+</Config>
