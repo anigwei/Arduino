@@ -2,6 +2,7 @@
 #include <DS3231.h>
 #include <LiquidCrystal_I2C.h>
 
+//Prova de Git
 LiquidCrystal_I2C lcd(0x3F, 2, 1, 0, 4, 5, 6, 7, 3, POSITIVE);  // Set the LCD I2C address
 
 dht DHT;
@@ -43,7 +44,7 @@ void setup(){
 void loop()
 {
   int chk = DHT.read11(DHT11_PIN);
-  lcd.setCursor(0,0); 
+  lcd.setCursor(0,0);
   lcd.print("T: ");
   lcd.print(int(DHT.temperature));
   lcd.print((char)223);
@@ -58,7 +59,7 @@ void loop()
  lcd.print(rtc.getTimeStr());
  lcd.print("  ");
  lcd.print(rtc.getDateStr());
-  
+
   val = digitalRead(2);  // read input value
   if (val == HIGH) {            // check if the input is HIGH
      lcd.setCursor(0,2);
